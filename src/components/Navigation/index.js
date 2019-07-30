@@ -32,7 +32,11 @@ const NavigationAuth = () => (
           Account
         </Link>
       </li>
-      <li className={styles.sign_out_button} />
+      <li>
+        <Link className={styles.nav_item} to={ROUTES.ADMIN}>
+          Admin
+        </Link>
+      </li>
     </ul>
     <div>
       <SignOutButton />
